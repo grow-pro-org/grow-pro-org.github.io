@@ -226,7 +226,6 @@ core-features-left:
 core-features-right:
   # Feature
   - name: Airflow
-<<<<<<< HEAD
     description: No more mold on your buds thanks to ventilation from above and below.
     icon: pe-7s-wine
 
@@ -234,15 +233,6 @@ core-features-right:
   - name: Optimal sizing
     description: Perfect size for a plant up to 1.5 meters tall
     icon: pe-7s-crop
-=======
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-shuffle
-
-  # Feature
-  - name: Optimal sizing
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-expand1
->>>>>>> 0a9ca9186c707f153228c3b3f2de7fbb0bee9151
 
   # Feature
   - name: Self optimized light positioning
