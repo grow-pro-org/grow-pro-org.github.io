@@ -4,7 +4,7 @@
   <!-- Site Head -->
 <head>
   <meta charset="utf-8" />
-  <title>Sera - OnePage Multi-Purpose Theme</title>
+  <title>GrowBox for 1 plant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="/images/favicon.png" title="Favicon" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -25,7 +25,7 @@
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-      <img src="/images/header-total.png" alt="Sera - One Page Template by Ohkimur Wallpaper" />
+      <img src="/images/header-total.png" alt="GrowBox for 1 plant" />
     </div>
   </div>
 
@@ -37,7 +37,7 @@
       <!-- Logo -->
       <div class="col-sm-2 col-xs-4 logo child-center-v">
         <a href="/index.html"><img src="/images/logo.png" width="100"
-            alt="Sera - OnePage Logo by Ohkimur"></a>
+            alt="GrowBox for 1 plant"></a>
       </div>
 
       <!-- Toggle Mobile Menu -->
@@ -57,13 +57,17 @@
         <nav id="navMenu" class="nav-menu">
           <ul class="menu">
             <li class="current-menu-item"><a href="#home">Home</a></li>
+            <!--
             <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            -->
+            <li><a href="#parallax-features">Features</a></li>
+            <li><a href="#portfolio">Impressions</a></li>
+            <!--
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#prices">Prices</a></li>
+            -->
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -105,7 +109,7 @@
     <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">
 
       <div class="wrapper-arrow child-center">
-        <a href="#about" class="arrow-down">
+        <a href="#parallax-features" class="arrow-down">
           <i class="pe-7s-angle-down"></i>
         </a>
       </div>
@@ -256,7 +260,7 @@
         <div class="feature">
           <div class="text-wrap">
             <h3>Optimal sizing</h3>
-            <p>Perfect size for a plant up to 1.5 meters tall</p>
+            <p>Perfect size for a plant up to 1.5 meters tall. Perfect match for regular and autoflowering seeds.</p>
           </div>
           <div class="icon-wrap">
             <div class="circle parent">
@@ -270,7 +274,7 @@
         <div class="feature">
           <div class="text-wrap">
             <h3>Self optimized light positioning</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing diam.</p>
+            <p>Automatic height adjustment of the lamp using camera-based plant measurement.</p>
           </div>
           <div class="icon-wrap">
             <div class="circle parent">
@@ -441,6 +445,113 @@
 </section>
 
 
+<!-- Offer Section -->
+<section class="spacer-section">
+  <div class="container">
+
+    <div class="col-md-10 col-sm-10">
+      <div class="icon-wrap">
+        <!--<i class="pe-7s-info"></i>-->
+        <h5 class="thin">* No sales currently. DIY only. Refactored version in progress.</h5>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="site-section contact-section next-section-indicator parallax" id="contact" data-scrollax-parent="true">
+
+  <!-- Parallax Contact Image -->
+  <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+    <img src="/images/contact-image.jpg" alt="GrowBox for 1 plant" />
+  </div>
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>Contact</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>Please write to me if you have any suggestions or, better yet, if you would like to work on the project!</p>
+      </div>
+
+    </div>
+
+    <!-- Form Container -->
+    <div class="row form-container">
+
+      <!-- Contact Form -->
+      <div class="col-md-8 col-md-push-2">
+        <form id="sera-contact-form" action="https://formspree.io/f/mpzvlrwe" method="POST"
+          class="contact-form container-fluid">
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Name" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="website" placeholder="Website" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="email" placeholder="Email" />
+          </div>
+          <div class="col-md-6">
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="col-md-12">
+            <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-12 form-action">
+            <button type="submit" class="send-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Google Map Embed -->
+<!-- 
+<div class="google-map">
+
+  <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAP_API_KEY&callback=initMap">
+  </script>
+  <div id="map" style='overflow:hidden;height:490px;width:100%;'></div>
+  <script type='text/javascript'>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      const lat = 44.4267674;
+      const lng = 26.102538399999958;
+      
+      const location = { lat, lng };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: location,
+      });
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+    }
+  </script>
+
+</div>
+-->
+
 
 
 
@@ -456,7 +567,7 @@
         </div>
 
         <div class="footer-info-text">
-          <p>Footer</p>
+          <p></p>
         </div>
 
         <!--

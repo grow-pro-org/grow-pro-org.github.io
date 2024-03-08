@@ -38,7 +38,7 @@ section.contact-section {
         &:active {
           color: $white;
           border-color: $primary;
-          background: transparentize($primary, 0.75);
+          background: !important transparentize($primary, 0.9);
 
           // Placeholders
           &::-webkit-input-placeholder { /* Chrome/Opera/Safari */

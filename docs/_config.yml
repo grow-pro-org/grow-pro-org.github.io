@@ -71,7 +71,7 @@ header-secondary-button:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: info@grow-pro.org
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -231,17 +231,17 @@ core-features-right:
 
   # Feature
   - name: Optimal sizing
-    description: Perfect size for a plant up to 1.5 meters tall
+    description: Perfect size for a plant up to 1.5 meters tall. Perfect match for regular and autoflowering seeds.
     icon: pe-7s-crop
 
   # Feature
   - name: Self optimized light positioning
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Automatic height adjustment of the lamp using camera-based plant measurement.
     icon: pe-7s-camera
 
   # Feature
   - name: Smart
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Fully automated but adjustable down to the smallest details for individual growing projects.
     icon: pe-7s-display1
 
 #####################################
@@ -393,13 +393,13 @@ plan-ultimate-url: "#"
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Contact
+contact-description: Please write to me if you have any suggestions or, better yet, if you would like to work on the project!
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Footer
+footer-description:
 footer-copyright-text: 
 footer-copyright-url: 
 footer-copyright-year: 
