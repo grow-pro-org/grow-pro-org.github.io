@@ -207,17 +207,17 @@ core-features-left:
   # Feature
   - name: Watering
     description: Weight-controlled flower pot for optimal watering conditions. 15l tank for 14 days self-sufficiency.
-    icon: pe-7s-drop
+    icon: pe-7s-paint-bucket
 
   # Feature
   - name: Robust design 
     description: Solid construction with HPL paneling. Suitable for living room, carport or basement.
-    icon: pe-7s-coffee
+    icon: pe-7s-tools
 
   # Feature
   - name: Heating & Cooling
     description: Cool down or heat up the system to achieve stable conditions for your plants.
-    icon: pe-7s-smile
+    icon: pe-7s-science
 
 
 #
@@ -226,6 +226,7 @@ core-features-left:
 core-features-right:
   # Feature
   - name: Airflow
+<<<<<<< HEAD
     description: No more mold on your buds thanks to ventilation from above and below.
     icon: pe-7s-wine
 
@@ -233,6 +234,15 @@ core-features-right:
   - name: Optimal sizing
     description: Perfect size for a plant up to 1.5 meters tall
     icon: pe-7s-crop
+=======
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    icon: pe-7s-shuffle
+
+  # Feature
+  - name: Optimal sizing
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    icon: pe-7s-expand1
+>>>>>>> 0a9ca9186c707f153228c3b3f2de7fbb0bee9151
 
   # Feature
   - name: Self optimized light positioning
@@ -242,7 +252,7 @@ core-features-right:
   # Feature
   - name: Smart
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-camera
+    icon: pe-7s-display1
 
 #####################################
 ########### Testimonials ############
