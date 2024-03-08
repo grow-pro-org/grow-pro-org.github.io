@@ -11,11 +11,11 @@ sass:
   sass_dir: _scss
 
 # Information for deploy
-baseurl: "grow-pro-org.github.io"
+#baseurl: "grow-pro-org.github.io"
 
 # the base hostname & protocol for your site
-url: "https://grow-pro-org.github.io"
-#url: "http://localhost:4000"
+#url: "https://grow-pro-org.github.io"
+url: "http://localhost:4000"
 
 ####################################
 ######   Optional Features    ######
@@ -226,12 +226,12 @@ core-features-left:
 core-features-right:
   # Feature
   - name: Airflow
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: No more mold on your buds thanks to ventilation from above and below.
     icon: pe-7s-wine
 
   # Feature
   - name: Optimal sizing
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+    description: Perfect size for a plant up to 1.5 meters tall
     icon: pe-7s-crop
 
   # Feature
