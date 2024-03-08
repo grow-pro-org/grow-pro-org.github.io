@@ -11,11 +11,11 @@ sass:
   sass_dir: _scss
 
 # Information for deploy
-baseurl: "grow-pro-org.github.io"
+#baseurl: "grow-pro-org.github.io"
 
 # the base hostname & protocol for your site
-url: "https://grow-pro-org.github.io"
-#url: "http://localhost:4000"
+#url: "https://grow-pro-org.github.io"
+url: "http://localhost:4000"
 
 ####################################
 ######   Optional Features    ######
@@ -207,17 +207,17 @@ core-features-left:
   # Feature
   - name: Watering
     description: Weight-controlled flower pot for optimal watering conditions. 15l tank for 14 days self-sufficiency.
-    icon: pe-7s-drop
+    icon: pe-7s-paint-bucket
 
   # Feature
   - name: Robust design 
     description: Solid construction with HPL paneling. Suitable for living room, carport or basement.
-    icon: pe-7s-coffee
+    icon: pe-7s-tools
 
   # Feature
   - name: Heating & Cooling
     description: Cool down or heat up the system to achieve stable conditions for your plants.
-    icon: pe-7s-smile
+    icon: pe-7s-science
 
 
 #
@@ -227,12 +227,12 @@ core-features-right:
   # Feature
   - name: Airflow
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-wine
+    icon: pe-7s-shuffle
 
   # Feature
   - name: Optimal sizing
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-crop
+    icon: pe-7s-expand1
 
   # Feature
   - name: Self optimized light positioning
@@ -242,7 +242,7 @@ core-features-right:
   # Feature
   - name: Smart
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-    icon: pe-7s-camera
+    icon: pe-7s-display1
 
 #####################################
 ########### Testimonials ############
