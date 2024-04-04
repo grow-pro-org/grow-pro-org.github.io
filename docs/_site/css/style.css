@@ -1196,11 +1196,15 @@ section.parallax-features-section .section-features .feature { display: block; w
 
 section.parallax-features-section .section-features .feature .text-wrap { display: inline-block; width: calc(100% - 100px); }
 
+@media (max-width: 700px) { section.parallax-features-section .section-features .feature .text-wrap { width: calc(100% - 20px); } }
+
 section.parallax-features-section .section-features .feature .text-wrap h3 { color: #21c2f8; font-size: 1.25rem; margin-bottom: 10px; }
 
-section.parallax-features-section .section-features .feature .text-wrap p { color: #bdc3c7; font-size: 0.875rem; }
+section.parallax-features-section .section-features .feature .text-wrap p { color: #101416; font-size: 0.875rem; }
 
 section.parallax-features-section .section-features .feature .icon-wrap { display: block; font-size: 2rem; }
+
+@media (max-width: 700px) { section.parallax-features-section .section-features .feature .icon-wrap { visibility: hidden; display: none; } }
 
 section.parallax-features-section .section-features .feature .icon-wrap .circle { width: 70px; height: 70px; font-size: 2rem; background-color: rgba(255, 255, 255, 0.2); }
 
