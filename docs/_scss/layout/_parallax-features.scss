@@ -91,9 +91,9 @@ section.parallax-features-section {
         }
 
         p {
-          color: #101416;
+          color: $white;
           font-size: 0.875rem;
-          // font-weight: lighter;
+          //font-weight: lighter;
         }
 
       }
@@ -141,7 +141,7 @@ section.parallax-features-section {
         margin-top: 0px;
 
         .text-wrap {
-          //width: calc(100% - 20px);
+          width: calc(100% - 20px);
           margin-bottom: 10px;
         }
       }

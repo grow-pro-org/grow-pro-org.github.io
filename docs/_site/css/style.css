@@ -1198,7 +1198,7 @@ section.parallax-features-section .section-features .feature .text-wrap { displa
 
 section.parallax-features-section .section-features .feature .text-wrap h3 { color: #21c2f8; font-size: 1.25rem; margin-bottom: 10px; }
 
-section.parallax-features-section .section-features .feature .text-wrap p { color: #101416; font-size: 0.875rem; }
+section.parallax-features-section .section-features .feature .text-wrap p { color: #fff; font-size: 0.875rem; }
 
 section.parallax-features-section .section-features .feature .icon-wrap { display: block; font-size: 2rem; }
 
@@ -1210,7 +1210,7 @@ section.parallax-features-section .section-features .feature:hover p { color: #f
 
 section.parallax-features-section .section-features .feature:hover .icon-wrap .circle { background-color: #21c2f8; }
 
-@media (max-width: 700px) { section.parallax-features-section .section-features .feature { margin-bottom: 0px; margin-top: 0px; } section.parallax-features-section .section-features .feature .text-wrap { margin-bottom: 10px; } section.parallax-features-section .section-features .text-left { margin-top: 0px; } section.parallax-features-section .section-features .text-left .icon-wrap { visibility: hidden; display: none; } section.parallax-features-section .section-features .text-right { margin-top: 0px; } section.parallax-features-section .section-features .text-right .icon-wrap { visibility: hidden; display: none; } }
+@media (max-width: 700px) { section.parallax-features-section .section-features .feature { margin-bottom: 0px; margin-top: 0px; } section.parallax-features-section .section-features .feature .text-wrap { width: calc(100% - 20px); margin-bottom: 10px; } section.parallax-features-section .section-features .text-left { margin-top: 0px; } section.parallax-features-section .section-features .text-left .icon-wrap { visibility: hidden; display: none; } section.parallax-features-section .section-features .text-right { margin-top: 0px; } section.parallax-features-section .section-features .text-right .icon-wrap { visibility: hidden; display: none; } }
 
 @media (max-width: 991px) { section.parallax-features-section .section-features .phone { display: none; } section.parallax-features-section .section-features .text-left .icon-wrap { margin-right: 30px; float: left; } section.parallax-features-section .section-features .text-right { text-align: left; } section.parallax-features-section .section-features .text-right .icon-wrap { margin-left: 0; margin-right: 30px; float: left; } }
 
