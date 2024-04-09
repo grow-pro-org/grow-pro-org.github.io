@@ -84,10 +84,6 @@ section.parallax-features-section {
         display: inline-block;
         width: calc(100% - 100px);
 
-        @media (max-width: 700px) {
-          width: calc(100% - 20px);
-        }
-
         h3 {
           color: $primary;
           font-size: 1.25rem;
@@ -142,20 +138,23 @@ section.parallax-features-section {
 
       .feature {
         margin-bottom: 0px;
+        margin-top: 0px;
+
+        .text-wrap {
+          //width: calc(100% - 20px);
+          margin-bottom: 10px;
+        }
       }
-      .icon-wrap {
-        visibility: hidden;
-        display: none;
-      }
+
       .text-left {
-        margin-top: 0%;
+        margin-top: 0px;
         .icon-wrap {
           visibility: hidden;
           display: none;
         }
       }
       .text-right {
-        margin-top: 0%;
+        margin-top: 0px;
         .icon-wrap {
           visibility: hidden;
           display: none;
@@ -173,8 +172,7 @@ section.parallax-features-section {
       }
 
       .text-left {
-        margin-top: 10%;
-
+    
         .icon-wrap {
           margin-right: 30px;
           float: left;
@@ -182,7 +180,6 @@ section.parallax-features-section {
       }
 
       .text-right {
-        margin-top: 10%;
         text-align: left;
 
         .icon-wrap {
