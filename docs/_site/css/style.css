@@ -1204,8 +1204,6 @@ section.parallax-features-section .section-features .feature .text-wrap p { colo
 
 section.parallax-features-section .section-features .feature .icon-wrap { display: block; font-size: 2rem; }
 
-@media (max-width: 700px) { section.parallax-features-section .section-features .feature .icon-wrap { visibility: hidden; display: none; } }
-
 section.parallax-features-section .section-features .feature .icon-wrap .circle { width: 70px; height: 70px; font-size: 2rem; background-color: rgba(255, 255, 255, 0.2); }
 
 section.parallax-features-section .section-features .feature, section.parallax-features-section .section-features .feature p, section.parallax-features-section .section-features .feature .icon-wrap .circle { transition: all 300ms ease-in-out; }
@@ -1213,6 +1211,8 @@ section.parallax-features-section .section-features .feature, section.parallax-f
 section.parallax-features-section .section-features .feature:hover p { color: #fff; }
 
 section.parallax-features-section .section-features .feature:hover .icon-wrap .circle { background-color: #21c2f8; }
+
+@media (max-width: 700px) { section.parallax-features-section .section-features .feature { margin-bottom: 0px; } section.parallax-features-section .section-features .icon-wrap { visibility: hidden; display: none; } section.parallax-features-section .section-features .text-left { margin-top: 0%; } section.parallax-features-section .section-features .text-left .icon-wrap { visibility: hidden; display: none; } section.parallax-features-section .section-features .text-right { margin-top: 0%; } section.parallax-features-section .section-features .text-right .icon-wrap { visibility: hidden; display: none; } }
 
 @media (max-width: 991px) { section.parallax-features-section .section-features .phone { display: none; } section.parallax-features-section .section-features .text-left { margin-top: 10%; } section.parallax-features-section .section-features .text-left .icon-wrap { margin-right: 30px; float: left; } section.parallax-features-section .section-features .text-right { margin-top: 10%; text-align: left; } section.parallax-features-section .section-features .text-right .icon-wrap { margin-left: 0; margin-right: 30px; float: left; } }
 
