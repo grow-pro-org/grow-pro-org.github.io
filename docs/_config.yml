@@ -168,26 +168,83 @@ portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex
 # Portfolio Grid
 #
 portfolio-categories:
-  [Websites, Logo, Graphic Design, Development, Video, Photography]
+  [Germination, Growth, Flowering, Regular, Autoflowering, Technology]
 portfolio:
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Graphic Design]
+
+  - title: <span class="thin">Regular Sativa Straint Week 3</span>
+    categories: [Growth, Regular]
     image: growing-1.png
     url: "#"
 
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Graphic Design, Logo, Websites]
+  - title: <span class="thin">Camera perspectives for monitoring and calculation</span>
+    categories: [Germination, Regular, Technology]
     image: growing-2.png
     url: "#"
 
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Graphic Design, Logo, Websites]
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Growth, Regular, Technology]
     image: growing-3.png
     url: "#"
 
+  - title: <span class="thin">Cameras for height calculations</span>
+    categories: [Growth, Regular, Technology]
+    image: growing-4.png
+    url: "#"
+
+  - title: <span class="thin">ioBroker Frontend and Grafana metrics dashboard</span>
+    categories: [Growth, Regular, Technology]
+    image: ui-1.png
+    url: "#"
+
+  - title: <span class="thin">Maintenance work during the growth phase</span>
+    categories: [Technology]
+    image: tec-1.png
+    url: "#"
+
+  - title: <span class="thin">Secret place in the bike cellar</span>
+    categories: [Technology]
+    image: emotions.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: drying.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: tec-2.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: tec-3.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: flowering-1.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: flowering-2.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: flowering-3.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: first-release.png
+    url: "#"
+
+  - title: <span class="thin">Self-positioning LED</span>
+    categories: [Technology]
+    image: flowering-4.png
+    url: "#"
 
 #####################################
 ##########  Core Features  ##########
