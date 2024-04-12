@@ -116,6 +116,7 @@ section.portfolio-section {
         bottom: 0;
         color: $white;
         background: transparentize($primary, 0.2);
+        padding: 10px;
 
         // Animation
         transform: translateY(100%);

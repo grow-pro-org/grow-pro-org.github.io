@@ -171,7 +171,7 @@ portfolio-categories:
   [Germination, Growth, Flowering, Regular, Autoflowering, Technology]
 portfolio:
 
-  - title: <span class="thin">Regular Sativa Straint Week 3</span>
+  - title: <span class="thin">Regular Sativa Strain Week 3</span>
     categories: [Growth, Regular]
     image: growing-1.png
     url: "#"
@@ -181,7 +181,7 @@ portfolio:
     image: growing-2.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Self-positioning LED with fan included</span>
     categories: [Growth, Regular, Technology]
     image: growing-3.png
     url: "#"
@@ -206,42 +206,42 @@ portfolio:
     image: emotions.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Stable conditions for drying</span>
     categories: [Technology]
     image: drying.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Constructed with onshape.com</span>
     categories: [Technology]
     image: tec-2.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Pot scale for irrigation and floor blower</span>
     categories: [Technology]
     image: tec-3.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Male detected in week 5 :-(</span>
     categories: [Technology]
     image: flowering-1.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Autoflowering Amsterdam Haze</span>
     categories: [Technology]
     image: flowering-2.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Autoflowering Amsterdam Haze</span>
     categories: [Technology]
     image: flowering-3.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">First Release after 2 years of work</span>
     categories: [Technology]
     image: first-release.png
     url: "#"
 
-  - title: <span class="thin">Self-positioning LED</span>
+  - title: <span class="thin">Regular Sativa Strain</span>
     categories: [Technology]
     image: flowering-4.png
     url: "#"

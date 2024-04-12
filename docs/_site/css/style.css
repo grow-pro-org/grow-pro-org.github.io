@@ -1153,7 +1153,7 @@ section.portfolio-section .portfolio-grid .item.is-showing { opacity: 0.3; }
 
 section.portfolio-section .portfolio-grid .item.is-showing.visible { opacity: 1; transform: scale(1) translateX(0); }
 
-section.portfolio-section .portfolio-grid .item .item-content { display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; top: 0; left: 15px; right: 15px; bottom: 0; color: #fff; background: rgba(33, 194, 248, 0.8); transform: translateY(100%); transition: all 300ms ease-in-out; }
+section.portfolio-section .portfolio-grid .item .item-content { display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; top: 0; left: 15px; right: 15px; bottom: 0; color: #fff; background: rgba(33, 194, 248, 0.8); padding: 10px; transform: translateY(100%); transition: all 300ms ease-in-out; }
 
 section.portfolio-section .portfolio-grid .item .item-content h3, section.portfolio-section .portfolio-grid .item .item-content h4 { text-transform: uppercase; }
 
